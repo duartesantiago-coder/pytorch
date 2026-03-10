@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>PyTorch - Biblioteca de IA</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f6f7f8;
+color:#333;
+}
+
+header{
+background:#1b1b1b;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#ff6f00;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ff6f00;
+}
+
+.hero{
+background:#ffffff;
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+color:#ff6f00;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+max-width:800px;
+margin:auto;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+.section{
+margin-bottom:40px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.section h2{
+color:#ff6f00;
+margin-bottom:15px;
+}
+
+button{
+margin-top:15px;
+background:#ff6f00;
+color:white;
+border:none;
+padding:10px 20px;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e65c00;
+}
+
+footer{
+background:#1b1b1b;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">PyTorch</div>
+<nav>
+<a href="#info">Información</a>
+<a href="#redes">Redes Neuronales</a>
+<a href="#demo">Demo</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Biblioteca de Inteligencia Artificial</h1>
+<p>
+PyTorch es una de las herramientas más utilizadas en el desarrollo de inteligencia artificial y aprendizaje automático.
+</p>
+</section>
+
+<div class="container">
+
+<div class="section" id="info">
+
+<h2>¿Qué es PyTorch?</h2>
+
+<p>
+PyTorch es una biblioteca de inteligencia artificial muy utilizada para crear modelos de aprendizaje automático y redes neuronales. Fue desarrollada por Facebook y está escrita principalmente en Python. Es muy popular porque permite desarrollar y entrenar modelos de IA de forma flexible y eficiente, además de poder aprovechar la potencia de la GPU para realizar cálculos más rápidos.
+</p>
+
+<p>
+PyTorch se usa en muchas áreas de la tecnología, como la visión por computadora, el procesamiento de lenguaje natural, la robótica y el desarrollo de sistemas inteligentes que pueden aprender a partir de datos.
+</p>
+
+</div>
+
+<div class="section" id="redes">
+
+<h2>Redes Neuronales</h2>
+
+<p>
+Las redes neuronales son modelos de inteligencia artificial inspirados en el funcionamiento del cerebro humano. Están formadas por capas de neuronas artificiales que reciben información, la procesan y producen un resultado.
+</p>
+
+<p>
+Estas redes pueden aprender patrones a partir de grandes cantidades de datos, por ejemplo para reconocer imágenes, entender texto o tomar decisiones.
+</p>
+
+<p>
+PyTorch facilita la creación y el entrenamiento de estas redes neuronales mediante el uso de tensores (estructuras de datos similares a matrices) y herramientas que permiten ajustar los modelos para mejorar su precisión.
+</p>
+
+</div>
+
+<div class="section" id="demo">
+
+<h2>Ejemplo interactivo</h2>
+
+<p id="texto">
+Presiona el botón para ver un dato sobre PyTorch.
+</p>
+
+<button onclick="mostrarDato()">Mostrar dato</button>
+
+</div>
+
+</div>
+
+<footer>
+Proyecto escolar sobre la biblioteca PyTorch
+</footer>
+
+<script>
+
+function mostrarDato(){
+document.getElementById("texto").innerText =
+"PyTorch es una de las bibliotecas más usadas en investigación de inteligencia artificial y deep learning.";
+}
+
+</script>
+
+</body>
+</html>
